@@ -48,8 +48,6 @@ class _HomePageState extends State<HomePage> {
       key: Key(band.id),
       direction: DismissDirection.startToEnd,
       onDismissed: (direction) {
-        print('direction: $direction');
-        print('id borrado: ${band.id}');
         //TODO: llamar el borrado en el server
       },
       background: Container(
